@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "**/frontmatter.json": "jsonc",
+        "**/.frontmatter/config/*.json": "jsonc",
+        "*.cfg": "cpp",
+        ".env*": "dotenv",
+        "iostream": "cpp",
+        "progressbar.h": "c",
+        "ostream": "cpp"
+    }
+}
