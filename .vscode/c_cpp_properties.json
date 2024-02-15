@@ -4,7 +4,6 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/UtilityClang/**"
             ],
             "defines": [
                 "_DEBUG",
@@ -20,7 +19,6 @@
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/UtilityClang/**"
             ],
             "defines": [],
             "macFrameworkPath": [

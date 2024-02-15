@@ -8,8 +8,6 @@
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
-				"-I${workspaceFolder}\\UtilityClang",
-				"${workspaceFolder}\\UtilityClang\\*.c",
 				"${file}",
 				"-o",
 				"${fileDirname}\\${fileBasenameNoExtension}.exe"
@@ -31,8 +29,6 @@
 				"-fcolor-diagnostics",
 				"-fansi-escape-codes",
 				"-g",
-				"-I${workspaceFolder}/UtilityClang",
-				"${workspaceFolder}/UtilityClang/*.c",
 				"${file}",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}.out"

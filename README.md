@@ -22,17 +22,13 @@ brew install mingw-w64
 ### Linux
 
 ```
-sudo apt install -y code
-sudo apt install -y mingw-w64
+sudo apt install update && sudo apt install -y code mingw-w64
 ```
 
 ## 編譯執行
 
-git clone 本專案後，開啟專案資料夾，並且在終端機輸入以下指令：
+`git clone` 本專案後，開啟專案資料夾，打開 `main.cpp`，按下 `F5`，就可以開始編譯執行程式了。
 
+```sh
+git clone https://github.com/leoli0605/Hello_VSCodeCpp.git
 ```
-git submodule init --update
-code .
-```
-
-接著按下 `F5`，就可以開始編譯執行程式了。
